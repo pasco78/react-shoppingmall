@@ -1,6 +1,7 @@
 .login-button {
   display: flex;
   justify-content: flex-end;
+  cursor: pointer;
 }
 
 .nav-section {
@@ -25,4 +26,16 @@
 .Search-input {
   display: flex;
   justify-content: flex-end;
+}
+
+.card {
+  transition: transform 0.2s; /* 애니메이션 속도 조정 */
+  margin: 15px; /* 카드 간격 */
+  padding: 15px; /* 내부 여백 */
+  border: 1px solid #ccc; /* 테두리 스타일 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 그림자 효과 */
+}
+
+.card:hover {
+  transform: scale(1.05); /* 마우스 호버 시 카드 크기 증가 */
 }
